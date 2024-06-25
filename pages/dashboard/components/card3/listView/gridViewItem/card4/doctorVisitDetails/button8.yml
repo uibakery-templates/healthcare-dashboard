@@ -1,0 +1,40 @@
+id: '16944398381680.5179890692961193'
+definitionId: button
+parentSlotId: '16944322613500.25558835414982184'
+styles:
+  xl:
+    gridItem:
+      x: 20
+      y: 0
+      w: 4
+      h: 9
+    iconPlacement: left
+  xs:
+    gridItem:
+      x: 0
+      y: 16
+      w: 24
+      h: 10
+properties:
+  name: button8
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  text: Visit again
+  status:
+    value: basic
+    dataValue: ''
+    withData: false
+  icon:
+    value: calendar-outline
+    dataValue: star-outline
+    withData: false
+actions:
+  buttonClick:
+    - action: '16944398640310.20674438009889928'
+      paramCode: ''
+      blockPageLoad: false
+      index: 0
+  init: []
+index: 2
+slots: []

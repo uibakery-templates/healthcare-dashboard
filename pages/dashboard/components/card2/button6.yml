@@ -1,0 +1,63 @@
+id: '16944387751580.6071344536286163'
+definitionId: button
+parentSlotId: '16944300780680.25996338718393397'
+styles:
+  xl:
+    gridItem:
+      x: 0
+      y: 79
+      w: 24
+      h: 9
+    iconPlacement: left
+    flex:
+      size:
+        widthValue: auto
+        heightValue: 36
+        heightUnit: px
+      grow: 0
+      shrink: 0
+  xs:
+    gridItem:
+      id: '16944387751580.6071344536286163'
+      x: 0
+      y: 198
+      w: 5
+      h: 9
+    flex:
+      size:
+        widthValue: auto
+        heightValue: 36
+        heightUnit: px
+      grow: 0
+      shrink: 0
+properties:
+  name: button6
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  text: Schedule appointment
+  status:
+    value: success
+    dataValue: '#1D3B93'
+    withData: false
+  appearance:
+    value: filled
+    dataValue: filled
+    withData: false
+  icon:
+    value: calendar-outline
+    dataValue: star-outline
+    withData: false
+  showLoading:
+    value: false
+    dataValue: 'false'
+    withData: false
+actions:
+  buttonClick:
+    - action: '16944306665730.14161236395081134'
+      paramCode: ''
+      blockPageLoad: false
+      index: 0
+  init: []
+index: 1
+slots: []

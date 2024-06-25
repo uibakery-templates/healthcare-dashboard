@@ -1,0 +1,11 @@
+id: '16944394432840.4095901036571723'
+nameConfigured: true
+name: nextAppointmentPrice
+kind: store_item
+parentId: '17186991457010.9970453353314621'
+storeItem:
+  value: ''
+  valueType: number
+  initialValue: '0'
+  version: 1
+steps: []

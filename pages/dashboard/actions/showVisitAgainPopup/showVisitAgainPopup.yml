@@ -1,0 +1,57 @@
+id: '16944398640310.20674438009889928'
+name: showVisitAgainPopup
+nameConfigured: true
+steps:
+  - id: '16944398640300.7098331051836795'
+    type: customAsyncCode
+    name: showPopup
+    params:
+      - type: asyncCode
+        value: ./showPopup.js
+        valueType: interpolatedValue
+        interpolationType: code
+    level: 0
+    fallthroughError: false
+    isChanged: true
+    nameConfigured: true
+  - id: '16944398640310.05784581208196693'
+    type: putInStore
+    name: save
+    params:
+      - type: name
+        value: '16944394432840.4095901036571723'
+        valueType: string
+      - type: value
+        value: '{{Math.floor(Math.random() * (600 - 50 + 1)) + 50}}'
+        valueType: interpolatedValue
+        interpolationType: code
+      - type: producible
+        value: true
+        valueType: custom
+    level: 0
+    fallthroughError: false
+    isChanged: true
+singleStep: true
+mode: manual
+modeConfigured: true
+parentPageId: '1'
+config:
+  shouldConfirm: false
+  confirmMessage: >-
+    Are you sure you'd like to proceed with
+    "{{actions.showScheduleAppointmentPopup.name}}"?
+  showSuccessToast: false
+  successToast: Action "{{actions.showScheduleAppointmentPopup.name}}" successfully executed
+  successToastDuration: '3000'
+  successToastHideByClick: false
+  showErrorToast: true
+  errorToast: Action "{{actions.showScheduleAppointmentPopup.name}}" has failed
+  errorToastDuration: '3000'
+  errorToastHideByClick: false
+  delay: '0'
+  runWhenFirstReferenced: true
+  preserveStateOnPageChange: false
+assigned: true
+selected: true
+configured: true
+kind: workflow

@@ -1,0 +1,52 @@
+id: '17187040119900.6617252435976166'
+definitionId: button
+styles:
+  xl:
+    gridItem:
+      x: 20
+      y: 0
+      w: 2
+      h: 12
+    iconPlacement: center
+    flex:
+      size:
+        widthValue: auto
+        heightValue: 36
+        heightUnit: px
+      grow: '0'
+      shrink: '0'
+  xs:
+    gridItem:
+      x: 0
+      y: 12
+      w: 24
+      h: 10
+    flex:
+      size:
+        widthValue: auto
+        heightValue: 36
+        heightUnit: px
+      grow: '0'
+      shrink: '0'
+properties:
+  name: button4
+  __UIBAKERY__RESPONSIVE__SHOW__CONDITION__CODE__:
+    - xl
+    - xs
+  appearance:
+    value: ghost
+    dataValue: filled
+    withData: false
+  status:
+    value: basic
+    dataValue: primary
+    withData: false
+  icon:
+    value: calendar-outline
+    dataValue: star-outline
+    withData: false
+  fieldTooltip: Reschedule the visit
+parentSlotId: '17187040119900.3823053472772102'
+index: 0
+actions: {}
+slots: []
